@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1179px) {
+  /*--------------header------------------*/
+  header {
+    background: #333;
+    opacity: 0.4;
+  }
+  /*--------------about----------------*/
+  .about .img-overlay {
+    height: 82%;
+  }
+  /*--------------welcome-area----------------*/
+  .welcome-overlay {
+    display: none;
+  }
+  /*--------------contact----------------*/
+  .contact-form-area {
+    padding: 26px 20px;
+  }
+  /*--------------welcome area----------------*/
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 56px;
+  }
+  /*--------------header----------------*/
+  header {
+    padding: 15px;
+  }
+  header #header-info-bar {
+    width: 40% !important;
+    left: 60% !important;
+    opacity: 0.4;
+  }
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*--------------about----------------*/
+  .about-content {
+    /* margin-top: 76px; */
+    max-width: 90%;
+  }
+  .about .img-overlay {
+    height: 101%;
+  }
+  .about .progressbar-area {
+    margin-bottom: 70px;
+  }
+  .about-img {
+    max-width: 90%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    max-width: 60%;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-item:hover .overlay-content-item {
+    transform: translateY(0%);
+  }
+  /*--------------contact----------------*/
+  .contact-detail p {
+    margin-bottom: 18px;
+  }
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  .contact textarea {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*--------------header----------------*/
+  header {
+    padding: 15px;
+  }
+  header #header-info-bar {
+    width: 100% !important;
+    left: 0% !important;
+    opacity: 0.4;
+  }
+  /*--------------about----------------*/
+  .about .skills {
+    max-width: 90%;
+  }
+  .about-img {
+    max-width: 90%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .service-header a {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  /*--------------testimonial----------------*/
+  .testimonial-content {
+    margin: 0px 20px;
+  }
+  /*--------------work----------------*/
+  .work .video-container {
+    padding-bottom: 60px;
+  }
+  /*--------------experience----------------*/
+  .experience {
+    margin-top: 60px;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-content-head ul li {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /*--------------header----------------*/
+  header {
+    padding: 15px;
+  }
+  header #header-info-bar {
+    width: 100% !important;
+    left: 0% !important;
+    opacity: 0.4;
+  }
+  /*--------------title small----------------*/
+  .title-small {
+    display: none;
+  }
+  /*--------------papepile----------------*/
+  #pp-nav.right {
+    right: -38px;
+  }
+  /*--------------welcome area----------------*/
+  .welcome-text {
+    padding: 0px 20px;
+  }
+  .welcome-area .overlayImg {
+    position: absolute;
+    width: 100%;
+  }
+  .welcome-area #typed {
+    line-height: 38px;
+    font-size: 38px;
+  }
+  .welcome-area .type-wrap {
+    margin-bottom: 12px;
+    margin-top: 50px;
+    font-family: "Martel", serif;
+  }
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 38px;
+  }
+  /*-----------------about-------------------*/
+  .about-img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-content {
+    padding: 0 auto;
+    margin-top: 50px;
+    max-width: 90%;
+  }
+  .about-img img {
+    height: auto;
+    max-width: 90%;
+    position: relative;
+    z-index: 2;
+  }
+  .about .img-overlay {
+    height: 101%;
+    display: none;
+  }
+  .img-hover {
+    width: 85%;
+    height: 95%;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+  }
+  /*--------------portfolio----------------*/
+  .portfolio-content-items {
+    margin: 0px 7px;
+  }
+  /*--------------work----------------*/
+  .work .work-img {
+    max-width: 100%;
+    padding: 0;
+    height: auto;
+  }
+  .work .work-item {
+    max-width: 100%;
+  }
+  /*--------------testimonial----------------*/
+  .client-testimonial #owl-demo-testimonial .item {
+    margin: 0 36px;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  /*--------------header----------------*/
+  header #header-info-bar {
+    width: 100% !important;
+    left: 0% !important;
+    opacity: 0.4;
+  }
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 64px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+  @media screen and (max-width: 600px) {
+    /*--------------about----------------*/
+    .about .skills {
+      /* max-width: 90%; */
+      margin: 0 auto;
+    }
+  }
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 0px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 0px;
+  }
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 48px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+}

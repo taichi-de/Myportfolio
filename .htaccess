@@ -1,0 +1,4 @@
+
+SetEnvIf Request_URI ".*" AllowXmlrpc
+SetEnvIf Request_URI ".*" AllowCountry
+SetEnvIf Request_URI ".*" AllowRestApi
