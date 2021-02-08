@@ -1,0 +1,123 @@
+.imgBg #client-testimonial {
+  background: url(../images/testimonialBg.jpg);
+  color: #383838;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.vantaBg #client-testimonial {
+  background: #1e1e1e;
+  color: #383838;
+}
+
+.client-testimonial {
+  .title-small p {
+    &::before {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 36px;
+      top: 12px;
+    }
+
+    &::after {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 12px;
+      right: 40px;
+    }
+  }
+
+  .client-area {
+    padding-top: 28px;
+  }
+
+  .sub-header {
+    color: #fff;
+  }
+
+  .testimonial-header {
+    padding-bottom: 16px;
+  }
+
+  .testimonial-title h3 {
+    color: #e7e7e7;
+  }
+
+  #owl-demo-testimonial .item {
+    border-radius: 3px;
+    text-align: center;
+    transition: all 0.5s;
+    max-width: 850px;
+    margin: 0 auto;
+    background: #e9e9e9;
+    margin: 0 20px;
+    border-radius: 0px;
+    transition: all 0.5s;
+
+    &:hover {
+      background: #383838;
+      color: #fff;
+    }
+  }
+
+  .owl-theme .owl-nav [class*="owl-"] {
+    color: #fff;
+    padding: 4px 11px;
+    background: #000;
+    border-radius: 0px;
+  }
+
+  .client-img img {
+    width: 96px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border-radius: 70px;
+    border: 4px solid rgba(102, 102, 102, 0.2);
+  }
+
+  .quote-text {
+    padding: 36px;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    padding: 24px;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+  }
+
+  .owl-theme .owl-controls {
+    .owl-page span {
+      border-radius: 0px;
+      background: #ccc;
+    }
+
+    .active span {
+      background: #fff;
+      opacity: 0.5;
+    }
+
+    .owl-page span {
+      background: #fff;
+      opacity: 1;
+    }
+  }
+
+  .name {
+    font-weight: 800;
+    padding-top: 12px;
+  }
+
+  .client-img {
+    padding-top: 32px;
+  }
+
+  .client-identity {
+    margin-bottom: 10px;
+  }
+}

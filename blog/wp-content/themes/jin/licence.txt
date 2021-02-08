@@ -1,3 +1,0 @@
-*Licence
-
-The PHP files within JIN theme are a GPL license. Images, CSS files, and JavaScript files are proprietary licenses by jin-theme.com & crosspiece.jp.
