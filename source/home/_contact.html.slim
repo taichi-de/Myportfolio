@@ -1,0 +1,49 @@
+section#contact.contact.footer.pp-scrollable.section
+  .content-container
+    .display-table
+      .display-content
+        .contact-header
+          .title-small
+            p CONTACT ME
+          h4.section-title Get In Touch
+        .contact-content
+          .container
+            .row
+              .col-lg-6.col-md-12.col-sm-12
+                .contact-detail
+                  h6 Contact
+                  p.adress
+                    i.fa.fa-map-marker aria-hidden="true" 
+                    span Address:
+                    br/
+                    span.adress-loc Augsburg, Bayern, Germany.
+                  p.email
+                    i.fas.fa-envelope aria-hidden="true" 
+                    = succeed "taichi_tomioka@icloud.com" do
+                      span
+                        | Email:
+                        br/
+                  .social-icons
+                    p Find:
+                    a href="https://github.com/taichi-de" 
+                      i.fab.fa-github
+                    a href="https://www.instagram.com/taichi.de/" 
+                      i.fab.fa-instagram
+                    a href="https://www.pinterest.jp/taizitomi/" 
+                      i.fab.fa-pinterest
+              .col-lg-6.col-md-12.col-sm-12
+                .contact-form
+                  form.contact-form-area action="contact.php" method="post" 
+                    .row
+                      .col-md-6
+                        input#form-name name="name" placeholder="名前" type="text" /
+                      .col-md-6
+                        input#form-email name="email" placeholder="メールアドレス" type="text" /
+                    .row
+                      .col-md-12
+                        input#form-subject name="subject" placeholder="タイトル" type="text" /
+                    .row
+                      .col-md-12
+                        textarea#form-message name="message" placeholder="お問い合わせ内容" 
+                        input#contact-submit.submit-btn.btn-style1.clearfix type="submit" value="送信" /
+                        .result

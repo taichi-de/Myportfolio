@@ -1,0 +1,163 @@
+.imgBg .contact {
+  background: url("../images/contactBg.jpg");
+  background-size: cover;
+  color: #383838;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 100%;
+}
+
+.vantaBg .contact {
+  background: #1e1e1e;
+  color: #383838;
+}
+
+.contact {
+  .title-small p {
+    &::before {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 40px;
+      top: 12px;
+    }
+
+    &::after {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 12px;
+      right: 42px;
+    }
+  }
+
+  .section-title {
+    color: #fff;
+  }
+}
+
+.contact-content {
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+.contact-detail {
+  background: #fff;
+  padding: 36px 40px;
+}
+
+.contact-header {
+  padding-bottom: 16px;
+}
+
+.contact {
+  .contact-form-area {
+    background: #fff;
+    padding: 30px 40px;
+  }
+
+  #form-name, #form-email, #form-subject {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: none;
+    margin-top: 12px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .contact-text {
+    padding-bottom: 10px !important;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    border: none;
+    padding-top: 8px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+}
+
+.contact-detail {
+  h6 {
+    margin-bottom: 16px;
+    color: #3c3c3c;
+    margin-top: 5px;
+    font-weight: 700;
+  }
+
+  p span {
+    font-weight: 700;
+    padding-right: 2px;
+  }
+
+  .adress-loc {
+    font-weight: 400 !important;
+  }
+
+  p {
+    margin: 16px 0px;
+
+    i {
+      color: #3f3f3f;
+      font-size: 20px;
+      padding-right: 12px;
+      width: 30px;
+    }
+  }
+
+  .social-icons {
+    a i {
+      font-size: 14px;
+      margin-right: 5px;
+      color: #fff;
+      width: 30%;
+      height: 30px;
+      line-height: 28px;
+      text-align: center;
+      transition: all 0.5s;
+      display: inline-block;
+      background: #3f3f3f;
+
+      &:hover {
+        background: #4b4b4b;
+      }
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 18px;
+      padding-top: 8px;
+    }
+  }
+}
+
+.contact {
+  #contact-submit {
+    margin-top: 28px;
+    padding: 10px 42px;
+    border: 0px;
+    margin-bottom: 4px;
+    float: left;
+  }
+
+  .result {
+    color: #111;
+    margin-top: 10px;
+  }
+}
+
+.result p {
+  text-align: left;
+  display: block;
+  width: 100%;
+  clear: left;
+  padding-top: 10px;
+}

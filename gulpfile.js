@@ -25,7 +25,7 @@ var imageminOption = [
     optimizationLevel: 1,
     colors: 256
   }),
-  imagemin.jpegtran(),
+  // imagemin.jpegtran(),
   imagemin.optipng(),
   imagemin.svgo()
 ];

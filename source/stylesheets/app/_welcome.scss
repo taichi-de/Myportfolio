@@ -1,0 +1,146 @@
+#particles-js {
+  z-index: 8;
+  position: inherit;
+  height: 90%;
+}
+
+.welcome-area {
+  .image-bg {
+    position: relative;
+    background-size: cover !important;
+    background: url("../images/imageBg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  }
+
+  .particle-bg {
+    position: relative;
+    background-size: cover !important;
+    background: url("../images/particleBg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  }
+
+  .snow-bg {
+    position: relative;
+    background-size: cover !important;
+    background: url("../images/snowBg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  }
+
+  .square-bg {
+    position: relative;
+    background-size: cover !important;
+    background: url("../images/squareBg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.bird.vanta-bg {
+  background-size: cover !important;
+  background: url("../images/birdBg.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.vantaBg .welcome-area .content-container {
+  height: 100%;
+}
+
+.welcome-area {
+  .title-small p {
+    &::before {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 69px;
+      top: 12px;
+    }
+
+    &::after {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 12px;
+      right: 75px;
+    }
+  }
+
+  .overlayImg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: url("../images/overlayImg.png");
+    top: 0;
+    opacity: 0.2;
+  }
+}
+
+.welcome-text {
+  color: #fff;
+  position: relative;
+  z-index: 90;
+
+  h1, #typed, .typed-cursor {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 52px;
+  }
+
+  p {
+    color: #fff;
+    margin-bottom: 35px;
+    max-width: 500px;
+  }
+
+  #typed span {
+    font-weight: 700;
+  }
+}
+
+.welcome-area {
+  .type-wrap {
+    margin-bottom: 35px;
+    margin-top: 50px;
+    font-family: "Martel", serif;
+  }
+
+  #typed {
+    white-space: normal;
+  }
+}
+
+.welcome-text {
+  .social-icons {
+    a {
+      color: #fff;
+      font-size: 16px;
+      padding: 0px 8px;
+
+      &:hover {
+        color: #c2bfbf;
+      }
+    }
+
+    margin-bottom: 50px;
+  }
+
+  a {
+    margin: 0px 5px;
+  }
+}

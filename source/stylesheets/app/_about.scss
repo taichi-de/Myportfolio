@@ -1,0 +1,204 @@
+.imgBg #about {
+  background: url(../images/aboutBg.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content {
+  max-width: 90%;
+}
+
+.vantaBg #about {
+  background: #474747;
+}
+
+.img-hover {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 75%;
+  height: 95%;
+  top: 12px;
+  z-index: 2;
+  left: 11px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.about-img:hover .img-hover {
+  transform: scale(1);
+}
+
+#about .img-hover a {
+  background: #fff;
+  position: absolute;
+  bottom: 38px;
+  padding: 14px 1em;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 10.8em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #323232;
+}
+
+.about {
+  .title-small p {
+    &::before {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      left: 3.1em;
+      top: 12px;
+    }
+
+    &::after {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 12px;
+      right: 55px;
+    }
+  }
+
+  h4 {
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Martel", sans-serif;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .title-small {
+    text-align: left;
+  }
+}
+
+.about-text {
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
+  position: relative;
+
+  img {
+    height: auto;
+    width: 80%;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.about {
+  .img-overlay {
+    background: url("../images/dots.png");
+    position: absolute;
+    height: 100%;
+    width: 82%;
+    top: 34px;
+    z-index: 1;
+    transition: all 0.5s;
+    left: 42px;
+  }
+
+  .skills {
+    max-width: 80%;
+  }
+
+  .skills-content .progressbar-area h6 {
+    margin-bottom: 21px;
+    font-weight: 500;
+    color: #6e6e6e;
+    font-size: 15px;
+  }
+
+  .skills .progress-bar {
+    background-color: #cbcbcb;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-left: 10px;
+    text-align: left;
+    color: #fff;
+    box-shadow: none;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .skill-category {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .skills {
+    .progress {
+      overflow: visible;
+      height: 9px;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+      font-weight: 400;
+      border: 1px solid #cbcbcb;
+      padding: 2px;
+    }
+
+    .progressbar-area h6 {
+      margin-bottom: 16px;
+      font-weight: 600;
+      font-size: 15px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .progress-bar {
+      width: 0%;
+
+      span {
+        position: absolute;
+        top: -31px;
+        right: -20px;
+        display: inline-block;
+        min-width: 25px;
+        height: 22px;
+        padding: 0 8px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #fff;
+        background-color: #333;
+        line-height: 21px;
+        width: 36px;
+      }
+
+      > span::before {
+        position: absolute;
+        bottom: -4px;
+        left: 12px;
+        display: block;
+        width: 8px;
+        height: 8px;
+        content: "";
+        transform: rotate(45deg);
+        background-color: #333;
+      }
+    }
+  }
+}
