@@ -1,14 +1,14 @@
-// .imgBg .resume {
-//   // background: url("../images/resumeBg.jpg");
-//   background: rgb(71,71,71);
-//   background: linear-gradient(90deg, rgba(71,71,71,1) 0%, rgba(195,164,0,1) 100%);
-//   background-size: cover;
-//   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
-// }
+.imgBg .resume {
+  // background: url("../images/resumeBg.jpg");
+  background: rgb(71,71,71);
+  background: linear-gradient(90deg, rgba(71,71,71,1) 0%, rgba(195,164,0,1) 100%);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
 
-// .vantaBg .resume {
-//   background: #474747;
-// }
+.vantaBg .resume {
+  background: #474747;
+}
 
 #resume {
   background: rgb(71,71,71);
@@ -54,8 +54,9 @@
 }
 
 .resume-item {
-  margin-bottom: 24px;
-  margin-left: 20px;
+  // margin-bottom: 24px;
+  // margin-left: 20px;
+  margin: 20px;
   position: relative;
 
   &::before {
