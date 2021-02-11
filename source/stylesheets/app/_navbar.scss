@@ -1,5 +1,5 @@
 header {
-  padding: 25px 50px;
+  padding: 30px 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19,11 +19,6 @@ header {
   #mainMenu {
     padding-top: 32px;
     padding-bottom: 14px;
-  }
-
-  a .logo {
-    display: inline-block;
-    float: left;
   }
 
   nav {
@@ -57,14 +52,11 @@ header {
       }
 
       a:hover {
-        color: #181818;
+        color: #c3a400;
       }
     }
   }
 
-  .logo {
-    display: inline-block;
-  }
 
   #header-info-bar {
     width: 25% !important;
@@ -108,16 +100,16 @@ header {
   visibility: visible;
 }
 
-#header-info-btn {
-  float: right;
-  color: #fff;
-  font-size: 20px;
-  z-index: 3;
-  position: relative;
-  display: block;
-  padding-top: 6px;
-  opacity: 1.0;
-}
+// #header-info-btn {
+//   float: right;
+//   color: #fff;
+//   font-size: 20px;
+//   z-index: 3;
+//   position: relative;
+//   display: block;
+//   padding-top: 6px;
+//   opacity: 1.0;
+// }
 
 header .modal-content {
   position: relative;
@@ -138,7 +130,7 @@ header .modal-content {
   span {
     width: 22px;
     height: 2px;
-    background: #fff;
+    background: #c3a400;
     display: block;
     margin: 0 auto;
     margin-bottom: 5px;
