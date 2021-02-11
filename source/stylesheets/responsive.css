@@ -182,16 +182,6 @@
     height: 101%;
     display: none;
   }
-  .img-hover {
-    width: 85%;
-    height: 95%;
-    top: 0;
-    z-index: 2;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 0;
-  }
   /*--------------portfolio----------------*/
   .portfolio-content-items {
     margin: 0px 7px;
