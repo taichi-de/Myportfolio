@@ -4,6 +4,16 @@
   height: 90%;
 }
 
+.welcome-area .image-bg {
+  position: relative;
+  background-size: cover !important;
+  background: url("../images/imageBg.jpg");
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
 .bird.vanta-bg {
   background-size: cover !important;
   background: url("../images/birdBg.jpg");
