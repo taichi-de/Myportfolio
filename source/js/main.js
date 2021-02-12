@@ -293,7 +293,7 @@
             direction: 'vertical',
             verticalCentered: true,
             sectionsColor: [],
-            anchors: ['welcome', 'about', 'service', 'resume', 'portfolio', 'work', 'blog', 'contact'],
+            anchors: ['home', 'about', 'service', 'resume', 'portfolio', 'work', 'client-testimonial', 'blog', 'contact'],
             scrollingSpeed: 700,
             easing: 'swing',
             loopBottom: true,
@@ -305,8 +305,8 @@
                 'position': 'right'
             },
             normalScrollElements: null,
-            normalScrollElementTouchThreshold: 6,
-            touchSensitivity: 6,
+            normalScrollElementTouchThreshold: 5,
+            touchSensitivity: 5,
             keyboardScrolling: true,
             sectionSelector: '.section',
             animateAnchor: true,
@@ -367,6 +367,33 @@
                 backgroundAlpha: 0.00
             })
 
+        }
+        if($(".vanta-bg").is(".fog")) {
+            VANTA.FOG({
+                el: "#welcome-vanta-area",
+                highlightColor: 0x9ec8e6,
+                midtoneColor: 0x979acf,
+                baseColor: 0x141414,
+                blurFactor: 0.61,
+                speed: 2.60
+            })
+        }
+
+        if($(".vanta-bg").is(".waves")) {
+            VANTA.WAVES({
+                el: "#welcome-vanta-area",
+                color: 0x19303e,
+                zoom: 1.22
+            })
+        }
+
+        if($(".vanta-bg").is(".cloud")) {
+            VANTA.CLOUDS({
+                el: "#welcome-vanta-area",
+                skyColor: 0x1a1d34,
+                cloudColor: 0x5e697a,
+                cloudShadowColor: 0xb1020
+            })
         }
 
     });
