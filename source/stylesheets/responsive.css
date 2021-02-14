@@ -5,11 +5,6 @@
 }
 
 @media screen and (max-width: 1179px) {
-  /*--------------header------------------*/
-  header {
-    background: #333;
-    opacity: 0.4;
-  }
   /*--------------about----------------*/
   .about .img-overlay {
     height: 82%;
