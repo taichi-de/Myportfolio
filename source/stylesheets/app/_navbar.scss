@@ -59,15 +59,17 @@ header {
 
 
   #header-info-bar {
-    width: 25% !important;
-    left: 75% !important;
+    width: 25%;
+    left: 75%;
     background: #fff !important;
     padding: 0px 20px;
     box-shadow: 5px 0px 20px #7d7d7d;
+    opacity: 0.9;
   }
 }
 
 #header-info-bar {
+  float: left;
   .modal-content {
     border: none;
     position: initial;
@@ -132,5 +134,14 @@ header .modal-content {
       width: 12px;
       opacity: 1.0;
     }
+  }
+}
+
+#changeLanguage {
+  float: right;
+  color: #c3a400;
+  font-size: 20px;
+  &:hover {
+    color: #fff;
   }
 }

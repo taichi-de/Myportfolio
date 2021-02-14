@@ -28,9 +28,8 @@
     padding: 15px;
   }
   header #header-info-bar {
-    width: 40% !important;
-    left: 60% !important;
-    opacity: 0.4;
+    width: 50% !important;
+    left: 50% !important;
   }
   /*------padding--------*/
   .padding-style1 {
@@ -74,11 +73,6 @@
   header {
     padding: 15px;
   }
-  header #header-info-bar {
-    width: 100% !important;
-    left: 0% !important;
-    opacity: 0.4;
-  }
   /*--------------about----------------*/
   .about .skills {
     max-width: 90%;
@@ -121,11 +115,6 @@
   /*--------------header----------------*/
   header {
     padding: 15px;
-  }
-  header #header-info-bar {
-    width: 100% !important;
-    left: 0% !important;
-    opacity: 0.4;
   }
   /*--------------title small----------------*/
   .title-small {
@@ -197,12 +186,6 @@
 }
 
 @media screen and (max-width: 464px) {
-  /*--------------header----------------*/
-  header #header-info-bar {
-    width: 100% !important;
-    left: 0% !important;
-    opacity: 0.4;
-  }
   /*--------------welcome-area----------------*/
   .welcome-text h1 {
     font-size: 40px;
