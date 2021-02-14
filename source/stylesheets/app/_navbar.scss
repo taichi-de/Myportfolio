@@ -64,12 +64,11 @@ header {
     background: #fff !important;
     padding: 0px 20px;
     box-shadow: 5px 0px 20px #7d7d7d;
-    opacity: 0.9;
+    opacity: 0.95 !important;
   }
 }
 
 #header-info-bar {
-  float: left;
   .modal-content {
     border: none;
     position: initial;
@@ -138,7 +137,9 @@ header .modal-content {
 }
 
 #changeLanguage {
-  float: right;
+  position: absolute;
+  top: 25px;
+  right: 30px;
   color: #c3a400;
   font-size: 20px;
   &:hover {
